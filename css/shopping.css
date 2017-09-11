@@ -1,0 +1,189 @@
+@font-face {
+  font-family: 'iconfont';  /* project id 408674 */
+  src: url('https://at.alicdn.com/t/font_408674_qn43iz99c41pds4i.eot');
+  src: url('https://at.alicdn.com/t/font_408674_qn43iz99c41pds4i.eot?#iefix') format('embedded-opentype'),
+  url('https://at.alicdn.com/t/font_408674_qn43iz99c41pds4i.woff') format('woff'),
+  url('httos://at.alicdn.com/t/font_408674_qn43iz99c41pds4i.ttf') format('truetype'),
+  url('https://at.alicdn.com/t/font_408674_qn43iz99c41pds4i.svg#iconfont') format('svg');
+}
+.iconfont{
+    font-family:"iconfont" !important;
+    font-size:18px;font-style:normal;
+    -webkit-font-smoothing: antialiased;
+    -webkit-text-stroke-width: 0.2px;
+    -moz-osx-font-smoothing: grayscale;
+    line-height: 1rem;s
+}
+*{
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    box-sizing: border-box;
+    cursor:default;
+    list-style-type: none;
+}
+a {
+    color: #000000;
+    -webkit-tap-highlight-color: transparent;
+    -webkit-touch-callout: none;
+    -webkit-user-select: none;
+}
+body{
+    position: relative;
+}
+.body{
+    font-family:微软雅黑;
+    margin: 0 auto;
+}
+header{
+    width: 100%;
+    height: 1rem;
+    background-color: green;
+    position: fixed;
+    top: 0;
+    left: 0;
+}
+.tour{
+    width: 100%;
+    height: 1rem;
+    border-bottom: 1px solid #000000;
+    position: relative;
+}
+.tour1{
+    position: absolute;
+    top:-.2rem;
+    left: 2%;
+    line-height: 1rem;
+  /*   display: block; */
+}
+.tour p{
+    text-align: center;
+    line-height: 1rem;
+    font-size: 18px;
+}
+.tour2{
+    position: absolute;
+    top:-.2rem;
+    right: 2%;
+    line-height: 1rem;
+}
+section{
+    position: absolute;
+    top: 1rem;
+    left: 0;
+    right: 0;
+    bottom: 1rem;
+    margin: auto;
+}
+.spxz{
+	
+	border:1px solid #dcdcdc;
+}
+.spxz ul{
+    width: 100%;
+    height: 70px;
+}
+.spxz ul li {
+    display: block;
+    float: left;
+}
+.li1{
+    line-height: 70px;
+    width: 10%;
+    text-align: center;
+}
+.li2{
+    margin-top: 0.05rem;
+    width: 10%;
+    text-align: center;
+}
+.li2 img{
+    border: 1px solid #dcdcdc;
+    padding: 0.01rem;
+}
+.li3{
+    width: 40%;
+    font-size: .14rem;
+    line-height: 30px;
+    text-align: center;
+}
+.one{
+    color: red;
+    border: none;
+    outline: none;
+    text-align: center;
+    width: .4rem;
+    background-color: white;
+}
+.li4{
+    width: 38%;
+    font-size: .14rem;
+    line-height: 70px;
+    text-align: right;
+}
+.reduce,.plus{
+    padding: 0 .05rem 0 .05rem;
+    border: 1px solid gainsboro;
+}
+.num{
+    text-align: center;
+    width: .2rem;
+    border: none;
+    outline: none;
+}
+/* footer{
+    width: 100%;
+    height: 1rem;
+    background-color: green;
+    position: fixed;
+    bottom: 0;
+    left: 0;
+} */
+.footing{
+    width: 100%;
+    position: fixed;
+    background-color: #ffffff;
+    z-index:1;
+    bottom: 0;
+}
+.footing ul{
+    width: 100%;
+    height: 1rem;
+    border-top: 1px solid #8a8a8a;
+}
+.footing ul li{
+    display: block;
+    float: left;
+}
+.li5{
+    line-height: 1rem;
+    width: 20%;
+    font-size: .14rem;
+    text-align: center;
+}
+.li6{
+    width: 60%;
+    line-height: 1rem;
+    font-size: .14rem;
+    text-align: center;
+}
+.li7{
+    width: 29%;
+    position: absolute;
+    right:0;
+    margin-right: .15rem;
+    text-align: center;
+    line-height: .5rem;
+}
+.li7 button{
+    white-space: nowrap;
+    width: 100%;
+    font-size: .14rem;
+    line-height: .4rem;
+    background-color: green;
+    color: #ffffff;
+    font-weight: bold;
+    border: none;
+    outline: none;
+    border-radius: 5px;
+}
