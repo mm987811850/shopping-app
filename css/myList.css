@@ -1,10 +1,10 @@
 @font-face {
   font-family: 'iconfont';  /* project id 408674 */
-  src: url('https://at.alicdn.com/t/font_408674_qn43iz99c41pds4i.eot');
-  src: url('https://at.alicdn.com/t/font_408674_qn43iz99c41pds4i.eot?#iefix') format('embedded-opentype'),
-  url('https://at.alicdn.com/t/font_408674_qn43iz99c41pds4i.woff') format('woff'),
-  url('httos://at.alicdn.com/t/font_408674_qn43iz99c41pds4i.ttf') format('truetype'),
-  url('https://at.alicdn.com/t/font_408674_qn43iz99c41pds4i.svg#iconfont') format('svg');
+  src: url('https://at.alicdn.com/t/font_408674_f167np3p05m6lxr.eot');
+  src: url('https://at.alicdn.com/t/font_408674_f167np3p05m6lxr.eot?#iefix') format('embedded-opentype'),
+  url('https://at.alicdn.com/t/font_408674_f167np3p05m6lxr.woff') format('woff'),
+  url('https://at.alicdn.com/t/font_408674_f167np3p05m6lxr.ttf') format('truetype'),
+  url('https://at.alicdn.com/t/font_408674_f167np3p05m6lxr.svg#iconfont') format('svg');
 }
 .iconfont{
     font-family:"iconfont" !important;
@@ -12,25 +12,8 @@
     -webkit-font-smoothing: antialiased;
     -webkit-text-stroke-width: 0.2px;
     -moz-osx-font-smoothing: grayscale;
-    line-height: 1rem;s
 }
-/* .iconfont1{
-    font-family:"iconfont" !important;
-    font-size:12px;font-style:normal;
-    -webkit-font-smoothing: antialiased;
-    -webkit-text-stroke-width: 0.2px;
-    -moz-osx-font-smoothing: grayscale;
-    line-height: 1rem;s
-} */
-*{
-    margin: 0;
-    padding: 0;
-    text-decoration: none;
-    box-sizing: border-box;
-    list-style-type: none;
-    cursor:default;
-    -webkit-appearance:none;
-}
+
 
 .body{
     font-family:微软雅黑;
@@ -214,38 +197,33 @@ footer{
     bottom: 0;
     left: 0;
 }
-.footer-nav{
-    width: 100%;
-    height: 1rem;
-    border-bottom: 1px solid #000000;
-    position: relative;
+ul{
+    overflow: hidden;
 }
-.footer-box{
-   /*  position: absolute; */
+footer li{
     width: 20%;
-    height: 1rem;
-
+    height:1rem;
     background-color: green;
     float: left;
-    display: block;
-    /* overflow: hidden; */
-}
-.footer-box a{
-    height: 49px;
-}
-.footer-box i{
-    /* height: .24rem; */
-    float: left;
-    margin-left: 30%;
-    margin-top: -.2rem;
-    /* text-align: center; */
-    font-size: 24px;
-}
-.footer-box span{
-   
-    font-size: 14px;
-
+    font-size: .14rem;
+    font-weight: bolder;
     text-align: center;
-    margin: 0 auto;
+    /* line-height: 0.rem; */
 }
+footer .strong{
+    color: red;
+}
+footer li i{
+    display: block;
+    margin: 0 auto;
+    margin-top: .1rem;
+    /* line-height: .18rem; */
+}
+footer li span{
+    display: block;
+    line-height: 0.5rem;
+    text-align: center;
 
+/*     line-height: .18rem;
+    font-size: .18rem; */
+}
